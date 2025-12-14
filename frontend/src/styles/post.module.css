@@ -1,0 +1,12 @@
+.postHeader {
+  font-weight: bold;
+  padding: 10px;
+}
+
+.postImage {
+  width: 100%;
+}
+
+.postBody {
+  padding: 10px;
+}

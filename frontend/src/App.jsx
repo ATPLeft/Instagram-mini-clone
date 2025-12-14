@@ -5,10 +5,10 @@ import Feed from "./pages/Feed";
 import CreatePost from "./pages/CreatePost";
 import Profile from "./pages/Profile";
 import PostDetail from "./pages/PostDetail";
-import Navbar from "./components/Navbar";
 import ProtectedRoute from "./components/ProtectedRoute";
+import Navbar from "./components/Navbar";
 
-function App() {
+export default function App() {
   return (
     <BrowserRouter>
       <Navbar />
@@ -55,5 +55,3 @@ function App() {
     </BrowserRouter>
   );
 }
-
-export default App;
